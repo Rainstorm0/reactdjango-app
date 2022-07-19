@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+import Navbar from './Navbar';
+import Calendar from './Calendar';
 
 export default class App extends Component{
     constructor(props){
@@ -7,8 +8,10 @@ export default class App extends Component{
     }
 
     render(){
-        return (<React.Fragment>
-            <h1>Successful react init</h1>
+        return (
+        <React.Fragment>
+            <Navbar className="Navbar"/>
+            <Calendar/>
         </React.Fragment>);
     }
 }

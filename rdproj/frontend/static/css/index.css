@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(41, 105, 105);
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px;
+    height: 100%;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#app {
+    height: 100%;
+}
+
+.Navbar{
+    background-color:rgb(28, 70, 70);
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 5%;
+}
+
+.Calendar{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(28, 70, 70); 
+    border-radius: 10px;
+}
+
+.Calendar.Day {
+    width:30px;
+    height:auto;
+}
