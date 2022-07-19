@@ -6,7 +6,7 @@ import random
 # Create your models here.
 
 
-def generate_unique_id():
+def generate_unique_code():
     length = 5
     while True:
         code = ''.join(random.choices(string.ascii_uppercase, k=length))
@@ -22,3 +22,4 @@ class User(models.Model):
     password = models.CharField(max_length=30, null=False)
     created_at = models.DateTimeField(auto_now_add=True)
     adminQ = models.BooleanField(null=False, default=False)
+    code = models.CharField(max_length=50, default="", null=False)
