@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rdapp.apps.RdappConfig',   # I added these lines
+    'frontend.apps.FrontendConfig',
     'rest_framework'
 ]
 
